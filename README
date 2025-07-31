@@ -1,0 +1,78 @@
+# 🛒 Shopper Spectrum:
+**Customer Segmentation and Product Recommendations in E-Commerce**
+
+---
+
+## 📌 Project Overview
+
+**Shopper Spectrum** is a full-stack machine learning project that analyzes customer purchase behavior to:
+
+- Segment customers using **RFM analysis** and **KMeans clustering**
+- Recommend similar products using **item-based collaborative filtering** and **cosine similarity**
+- Deliver a clean and interactive user experience via a **Streamlit web app**
+
+---
+
+## ✨ Features
+
+✅ RFM-based Customer Segmentation  
+✅ KMeans Clustering with dynamic cluster labeling  
+✅ Cosine Similarity–based Product Recommendations  
+✅ Dual Modules in Streamlit (Recommendation + Segmentation)  
+✅ Clean, interactive UI for real-time use
+
+---
+
+## 🧠 How It Works
+
+- **RFM Analysis**: Calculates Recency, Frequency, and Monetary value for each customer  
+- **Clustering**: Applies KMeans to group customers into 5 segments (e.g., High-Value, At-Risk)  
+- **Recommendation Engine**: Uses item-based collaborative filtering to suggest 5 similar products  
+- **Streamlit App**: Provides an easy-to-use interface to explore segments and get product suggestions
+
+---
+
+## 🗂️ Folder Structure
+
+├── app.py # Streamlit web app
+├── test.ipynb # Notebook with clustering + recommendation logic
+├── kmeans_model.pkl # Trained KMeans model
+├── scaler.pkl # StandardScaler for RFM input
+├── similarity_df.pkl # Cosine similarity matrix for recommendations
+├── product_names.pkl # Mapping from StockCode to product names
+├── requirements.txt # Python dependencies
+├── README.md # Project overview (this file)
+├── .gitignore # Files excluded from Git
+
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/Shubhampandey1git/-Shopper-Spectrum-Customer-Segmentation-and-Product-Recommendations-in-E-Commerce.git
+cd -Shopper-Spectrum-Customer-Segmentation-and-Product-Recommendations-in-E-Commerce.git
+```
+
+### 2️⃣ Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+### 3️⃣ Run the Streamlit App
+```bash
+streamlit run app.py
+```
+
+---
+
+## Dataset link: https://drive.google.com/file/d/1rzRwxm_CJxcRzfoo9Ix37A2JTlMummY-/view?usp=sharing
+
+---
+
+## 🙋‍♂️ Author
+
+**Shubham Pandey**
+📧 [Email Me](mailto:shubhamppandey1084@gmail.com)
+🔗 [LinkedIn](https://www.linkedin.com/in/shubham-pandey-6a65a524a/) • [GitHub](https://github.com/Shubhampandey1git)
